@@ -1,0 +1,41 @@
+Utilizando HTML, CSS e JavaScript, criar um site que simule os resultados da primeira fase do Grupo G da Copa do Mundo de 2022.
+Nessa primeira fase, há 4 times no grupo G e todos jogam contra todos, ou seja, 3 jogos de cada time.
+Você deverá montar uma tabela, que será alterada há medida com que o usuário vá simulando os resultados de cada jogo.
+A classificação se dá por ordem decrescente de pontuação e caso de empate em pontos, o saldo de gols é critério de desempate (quem tiver saldo de gols maior fica acima de quem tem saldo de gols menor).
+As seleções pontuam da seguinte forma:
+    Vitória – 3 pontos
+    Empate – 1 ponto
+
+O site irá ser aberto apenas no PC, ou seja, não é um requisito que ele seja responsivo.
+O trabalho deverá ser feito em dupla ou sozinho.
+
+Seu código deverá estar no Github e você deverá utilizar o próprio Github para publicar seu repositório  como um site (segue um vídeo explicando como fazer isso:
+https://www.youtube.com/watch?v=BA_c3bGQXlQ )
+
+Os critérios para a avaliação do projeto serão:
+    Aparência (beleza!)
+    Usabilidade (é fácil navegar no site!?)
+    Funcionamento (o simulador realmente funciona?)
+    Análise do código (estou usando as tags corretamente? Ou estou usando a faca da cozinha para descochar o parafuso?)
+    Publicação do site utilizando o GitHub Pages
+
+Valor: 25 pontos
+Data da Entrega: 06/11/2022
+
+Forma de Entrega: enviar para o e-mail rodrigolfsi@univas.edu.br o link do Github com o código fonte e enviar o link da sua página publicada como site. Ainda no corpo do e-mail é necessário enviar o nome e o sobrenome de cada membro da dupla.
+
+OBS: trabalhos entregues após a data definida serão aceitos até o dia 11/11/2022 e a cada dia que passar.
+
+//
+//
+
+Jogos: 
+
+Sui x Cam (24 Nov)
+Bra x Ser (24 Nov)
+Cam x Ser (28 Nov)
+Bra x Sui (28 Nov)
+Cam x Bra (2 Dez)
+Ser x Sui (2 Dez)
+
+...

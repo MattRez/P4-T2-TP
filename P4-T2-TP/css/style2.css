@@ -1,0 +1,52 @@
+table {
+    border-collapse: collapse;
+    font-size: large;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+img {
+    height: 24px;
+    margin-bottom: -4px;
+    margin-right: 4px;
+}
+
+tbody > tr:hover{
+    background-color: #ddd;
+}
+
+.class {
+    padding: 0 12px;
+}
+
+div.table {
+    margin: 16px;
+    width: 40%;
+    margin: 20px auto;
+}
+
+div.sim {
+    width: 40%;
+    margin: 20px auto;
+}
+
+h1 {
+    margin: 8px;
+}
+
+.inputnum {
+    width: 48px;
+}
+
+p {
+    margin: 8px 4px;
+    font-size: large;
+}
+
+div.sim > div {
+    width: 40%;
+    margin: 8px auto;
+}

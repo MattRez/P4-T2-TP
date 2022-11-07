@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>P4-T2-TP</title>
+        <link rel="stylesheet" href="./css/style2.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <!-- CONTEÚDO -->
+        <div class="content">
+            <!-- TABELA -->
+            <div class="table">
+                <h1>Tabela</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Seleção</th>
+                            <th>Pontos</th>
+                            <th>Saldo Gols</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="tbrasil">
+                            <td class="class">1</td>
+                            <td><img src="./images/brasil.png">Brasil</td>
+                            <td class="pts">1</td>
+                            <td class="sld"></td>
+                        </tr>
+                        <tr id="tcamaroes">
+                            <td class="class">2</td>
+                            <td><img src="./images/camaroes.png">Camarões</td>
+                            <td class="pts">2</td>
+                            <td class="sld"></td>
+                        </tr>
+                        <tr id="tservia">
+                            <td class="class">3</td>
+                            <td><img src="./images/servia.png">Servia</td>
+                            <td class="pts">3</td>
+                            <td class="sld"></td>
+                        </tr>
+                        <tr id="tsuica">
+                            <td class="class">4</td>
+                            <td><img src="./images/suica.png">Suiça</td>
+                            <td class="pts">4</td>
+                            <td class="sld"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- SIMULADOR -->
+
+            <div class="sim">
+                <h1>Simulador</h1>
+                <div id="suicam">
+                    <p>Suíça X Camarões</p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><input class="inputnum" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                                <td> X </td>
+                                <td><input class="inputnum" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--  -->
+                <div id="braser">
+                    <p>Brasil X Sérvia</p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><input id="bra-braser" class="inputnum" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                                <td> X </td>
+                                <td><input id="ser-braser" class="inputnum" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--  -->
+                <div id="camser">
+                    <p>Camarões X Sérvia</p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><input id="cam-camser" class="inputnum" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                                <td> X </td>
+                                <td><input id="ser-camser" class="inputnum" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--  -->
+                <div id="brasui">
+                    <p>Brasil X Suíça</p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><input id="bra-brasui" class="inputnum" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                                <td> X </td>
+                                <td><input id="sui-brasui" class="inputnum" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--  -->
+                <div id="cambra">
+                    <p>Camrões X Brasil</p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><input id="cam-cambra" class="inputnum" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                                <td> X </td>
+                                <td><input id="bra-cambra" class="inputnum" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--  -->
+                <div id="sersui">
+                    <p>Sérvia X Suíça</p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><input id="ser-sersui" class="inputnum" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                                <td> X </td>
+                                <td><input id="sui-sersui" class="inputnum" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!--  -->
+            </div>
+        </div>
+    </body>
+</html>
