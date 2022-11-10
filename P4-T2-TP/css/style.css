@@ -1,12 +1,6 @@
-/*
-* {
-    margin: 0;
-    padding: 0;
-}
-*/
-
 table {
     border-collapse: collapse;
+    font-size: large;
 }
 
 td, th {
@@ -24,23 +18,35 @@ tbody > tr:hover{
     background-color: #ddd;
 }
 
-div {
-    display:inline-block;
+.class {
+    padding: 0 12px;
 }
 
-.content {
+div.table {
+    margin: 16px;
+    width: 40%;
+    margin: 20px auto;
+}
+
+div.sim {
+    width: 40%;
+    margin: 20px auto;
+}
+
+h1 {
+    margin: 8px;
+}
+
+.inputnum {
+    width: 48px;
+}
+
+p {
+    margin: 8px 4px;
     font-size: large;
-    width: 100%;
-    
 }
 
-.table {
-    width: 35%;
-    margin: 0;
+div.sim > div {
+    width: 40%;
+    margin: 8px auto;
 }
-
-.sim {
-    width: 35%;
-}
-
-/* ... */
