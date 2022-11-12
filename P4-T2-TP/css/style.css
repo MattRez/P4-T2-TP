@@ -18,7 +18,7 @@ tbody > tr:hover{
     background-color: #ddd;
 }
 
-.class {
+.cla {
     padding: 0 12px;
 }
 
@@ -37,8 +37,9 @@ h1 {
     margin: 8px;
 }
 
-.inputnum {
+.input {
     width: 48px;
+    height: 24px;
 }
 
 p {
@@ -49,4 +50,9 @@ p {
 div.sim > div {
     width: 40%;
     margin: 8px auto;
+}
+
+button {
+    margin: 8px;
+    margin-top: -10px;
 }
